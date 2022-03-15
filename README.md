@@ -1,14 +1,14 @@
 # epistasis-inference
 
 
-#===============================================================================
+
 # This repository contains codes and data accompanying the paper ""
 
 
 
 
 
-#===============================================================================
+
 # System and software requirements
 
 The codes were written on MATLAB R2017b on Windows 10 64-bit computer. Requires
