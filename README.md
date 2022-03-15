@@ -75,83 +75,89 @@ requires Statistics and Machine Learning Toolbox (v11.2) or later.
    
    For running the case of 3 replicates
    
-	 In Line 27, set numReps = 3
-	 In line 28, set numItr1 = 999
+	 - In Line 27, set numReps = 3
+	 - In line 28, set numItr1 = 999
 	 
    For running the case of 5 replicates
    
-	 In Line 27, set numReps = 5	 
-	 In line 28, set numItr1 = 1000
+	 - In Line 27, set numReps = 5	 
+	 - In line 28, set numItr1 = 1000
 	 
 2. Run PlotMPL_Epi_5sites_rep_new.m: This code takes the analysis of the previous step and prepares it for plotting.
    
    For running the case of 3 replicates
    
-	 In Line 48, set thisItrEnd = 3	 
-	 In line 28, set lastItr = 999
+	 - In Line 48, set thisItrEnd = 3	 
+	 - In line 28, set lastItr = 999
 
    For running the case of 5 replicates
    
-	 In Line 48, set thisItrEnd = 5
-	 In line 28, set lastItr = 1000
+	 - In Line 48, set thisItrEnd = 5
+	 - In line 28, set lastItr = 1000
 	 
 3. Run PlotMPL_Epi_FF5_NumRep_4.m: This code plots Figure 5	 
 	
-#----------------------------------------------------------------------------------
 
-6. Results shown in Figure 6
+## 6. Results shown in Figure 6
+
    Compute performance of MPL by varying number of samples n_s and time sampling 
    step \delta_t
    
-Step2:
-6.1 -Run AnalysisMPL_Epi_5sites_HeatMap_reg2_v2.m: This code estimates selection
-     coefficients and epistasis terms by varying n_s and \delta_t
-6.2 -Run PlotMPL_Epi_5sites_Heatmap_ng_dT.m: This code takes the analysis of the
-     previous step and prepares it for plotting.
-6.3 - Run PlotMPL_Epi_FF6_MPLE_heatmap.m: This code plots Figure 6	 
-#----------------------------------------------------------------------------------
+### Step2:
 
-7. Results shown in Figure 7
+1. Run AnalysisMPL_Epi_5sites_HeatMap_reg2_v2.m: This code estimates selection
+     coefficients and epistasis terms by varying n_s and \delta_t
+2. Run PlotMPL_Epi_5sites_Heatmap_ng_dT.m: This code takes the analysis of the
+     previous step and prepares it for plotting.
+3. Run PlotMPL_Epi_FF6_MPLE_heatmap.m: This code plots Figure 6	 
+
+## 7. Results shown in Figure 7
+
    Comparision of MPL and MPL (no epistasis) over fitness landscape with varying 
    fraction of non-zero epistasis terms.
 
-Steps:
-7.1 -Run AnalysisMPL_Epi_5sites_reg2_v2_loop.m: This code estimates selection
+### Steps:
+
+1. Run AnalysisMPL_Epi_5sites_reg2_v2_loop.m: This code estimates selection
      coefficients and epistasis terms for cases with varying fraction of non-zero 
 	 epistasis terms.
-7.2 -Run PlotMPL_Epi_5sites_loop.m: This code takes the analysis of the
+2. Run PlotMPL_Epi_5sites_loop.m: This code takes the analysis of the
      previous step and prepares it for plotting.
-7.3 -Run PlotMPL_Epi_FF7_modelComp_2.m: This code plots Figure 7
+3. Run PlotMPL_Epi_FF7_modelComp_2.m: This code plots Figure 7
 
-#----------------------------------------------------------------------------------
-
-8. Results shown in Supplementary Figure 1
+## 8. Results shown in Supplementary Figure 1
+   
    Effect of data variability on estimation performance of MPL
    
-Steps:
-8.1 -Run PlotMPL_Epi_FFS_boxplots_supp.m: This code plots Supplementary Figure 1
+### Steps:
 
-#----------------------------------------------------------------------------------
+1. Run PlotMPL_Epi_FFS_boxplots_supp.m: This code plots Supplementary Figure 1
 
-9. Results shown in Supplementary Figure 2
+## 9. Results shown in Supplementary Figure 2
+   
    Fraction of acessible, partiallly accessible and non accessible 
    selection coefficients and epistrasis terms as a function of varying data 
    variability analyzed in Figure 4.
-Steps:
-9.1 -Run PlotMPL_Epi_FFS2_fracAccess.m: This code plots Supplementary Figure 2
 
-#----------------------------------------------------------------------------------
+### Steps:
 
-10. Results shown in Supplementary Figure 3
-    Performance of MPL on sparse fitness landscapses analyzed in Figure 7
-Steps:
-10.1 -Run PlotMPL_Epi_FFS3_Landscapes_new.m: This code plots Supplementary Figure 3
+1. Run PlotMPL_Epi_FFS2_fracAccess.m: This code plots Supplementary Figure 2
 
-#----------------------------------------------------------------------------------
+## 10. Results shown in Supplementary Figure 3
+   
+   Performance of MPL on sparse fitness landscapses analyzed in Figure 7
 
-11. Results shown in Supplementary Figure 5
-    Peroformance comparison of MPL and MPL (no epistasis) on low variability data 
+### Steps:
+
+1. Run PlotMPL_Epi_FFS3_Landscapes_new.m: This code plots Supplementary Figure 3
+
+
+## 11. Results shown in Supplementary Figure 5
+   
+   Peroformance comparison of MPL and MPL (no epistasis) on low variability data 
 	Analyzed in Figure 4
-Steps:
-11.1 -Run PlotMPL_Epi_FFS5_ModelComp_LowVarib.m: This code plots Supplementary Figure 5
+
+### Steps:
+
+1. Run PlotMPL_Epi_FFS5_ModelComp_LowVarib.m: This code plots Supplementary Figure 5
 
