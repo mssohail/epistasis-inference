@@ -1,21 +1,11 @@
-# epistasis-inference
-
-
 
 This repository contains codes and data accompanying the paper "Inferring epistasis from genetic time-series data" doi:
-
-
-
-
-
 
 # System and software requirements
 
 The codes were written on MATLAB R2017b on Windows 10 64-bit computer. Requires
 MATLAB 2017b or later (may work on earlier versions but not tested). Also
 requires Statistics and Machine Learning Toolbox (v11.2) or later.
-
-
 
 # Downloading and running codes
 
@@ -25,8 +15,6 @@ requires Statistics and Machine Learning Toolbox (v11.2) or later.
    MPL codes.
 4. **Edit the dirName.txt file** within the MPL codes folder and **enter complete paths 
    of the Data and Analysis folders.**
-
-
 
 # Steps to obtain results presented in the paper
 
@@ -71,34 +59,26 @@ requires Statistics and Machine Learning Toolbox (v11.2) or later.
    
 ### Steps:   
 
-1. Run AnalysisMPL_Epi_5sites_WithR_reg2_v2.m: This code estimates selection
-     coefficients and epistasis terms for a five-locus system analyzed in Figure 4
-	 of the paper.
-	-In Line 28, set numStrainsInInitialPop to 5, 10 and 20 to run for each 
-	 data variability case one by one.
-2. Run PlotMPL_Epi_5sites.m: This code takes the analysis of the previous step
-     and prepares it for plotting.
-	-In Line 37, set numStrainsInInitialPop to 5, 10 and 20 to run for each 
-	 data variability case one by one.
+1. Run AnalysisMPL_Epi_5sites_WithR_reg2_v2.m: This code estimates selection coefficients and epistasis terms for a five-locus system analyzed in Figure 4 of the paper. In Line 28, set numStrainsInInitialPop to 5, 10 and 20 to run for each data variability case one by one.
+2. Run PlotMPL_Epi_5sites.m: This code takes the analysis of the previous step and prepares it for plotting. In Line 37, set numStrainsInInitialPop to 5, 10 and 20 to run for each data variability case one by one.
 3. Run PlotMPL_Epi_FF4_NumStrains_4.m: This code plots Figure 4
      
-#----------------------------------------------------------------------------------
+## 5. Results shown in Figure 5
 
-5. Results shown in Figure 5
    Performance of MPL as a function fo data variability controlled by varying the 
    number of replicates used for inference
 
-Steps:   
-5.1 -Run AnalysisMPL_Epi_5sites_rep.m: This code estimates selection
-     coefficients and epistasis terms for a five-locus system analyzed in Figure 5
-	 of the paper.
+### Steps:   
+
+1. Run AnalysisMPL_Epi_5sites_rep.m: This code estimates selection
+   coefficients and epistasis terms for a five-locus system analyzed in Figure 5 of the paper.
 	-For running the case of 3 replicates
 	 In Line 27, set numReps = 3
 	 In line 28, set numItr1 = 999
 	-For running the case of 5 replicates
 	 In Line 27, set numReps = 5
 	 In line 28, set numItr1 = 1000
-5.2 -Run PlotMPL_Epi_5sites_rep_new.m: This code takes the analysis of the previous step
+2. Run PlotMPL_Epi_5sites_rep_new.m: This code takes the analysis of the previous step
      and prepares it for plotting.
 	-For running the case of 3 replicates
 	 In Line 48, set thisItrEnd = 3
@@ -106,7 +86,7 @@ Steps:
 	-For running the case of 5 replicates
 	 In Line 48, set thisItrEnd = 5
 	 In line 28, set lastItr = 1000
-5.3 -Run PlotMPL_Epi_FF5_NumRep_4.m: This code plots Figure 5	 
+3. Run PlotMPL_Epi_FF5_NumRep_4.m: This code plots Figure 5	 
 	
 #----------------------------------------------------------------------------------
 
