@@ -30,19 +30,20 @@ requires Statistics and Machine Learning Toolbox (v11.2) or later.
 
 # Steps to obtain results presented in the paper
 
-1. Results shown in Figure 1 
+## 1. Results shown in Figure 1 
+
    Estimating epistasis and selection coefficient under scenarios 
    (a) positive epistasis
    (b) negative epistasis
    (c) sign epistasis
    (d) no epistasis
 
-Steps: 
-1.1 -Run AnalysisMPL_Epi_2sites_v2_allSets_8cases.m: This code estimates the selection 
+### Steps: 
+1.1 Run AnalysisMPL_Epi_2sites_v2_allSets_8cases.m: This code estimates the selection 
      coefficients and epistasis terms for the two-locus system analyzed in Figure 1 
      of the paper.
-	-In Line 30, set analyzeDataForFigure = 1
-1.2 -Run PlotMPL_Epi_FF1_8cases.m: This code plots Figure 1
+    In Line 30, set analyzeDataForFigure = 1
+1.2 Run PlotMPL_Epi_FF1_8cases.m: This code plots Figure 1
 
 #----------------------------------------------------------------------------------
 
