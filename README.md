@@ -72,19 +72,27 @@ requires Statistics and Machine Learning Toolbox (v11.2) or later.
 
 1. Run AnalysisMPL_Epi_5sites_rep.m: This code estimates selection
    coefficients and epistasis terms for a five-locus system analyzed in Figure 5 of the paper.
-	-For running the case of 3 replicates
+   
+   For running the case of 3 replicates
 	 In Line 27, set numReps = 3
+	 
 	 In line 28, set numItr1 = 999
-	-For running the case of 5 replicates
+	 
+   For running the case of 5 replicates
 	 In Line 27, set numReps = 5
+	 
 	 In line 28, set numItr1 = 1000
-2. Run PlotMPL_Epi_5sites_rep_new.m: This code takes the analysis of the previous step
-     and prepares it for plotting.
-	-For running the case of 3 replicates
+	 
+2. Run PlotMPL_Epi_5sites_rep_new.m: This code takes the analysis of the previous step and prepares it for plotting.
+   
+   For running the case of 3 replicates
 	 In Line 48, set thisItrEnd = 3
+	 
 	 In line 28, set lastItr = 999
-	-For running the case of 5 replicates
+
+   For running the case of 5 replicates
 	 In Line 48, set thisItrEnd = 5
+	 
 	 In line 28, set lastItr = 1000
 3. Run PlotMPL_Epi_FF5_NumRep_4.m: This code plots Figure 5	 
 	
