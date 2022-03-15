@@ -103,7 +103,7 @@ requires Statistics and Machine Learning Toolbox (v11.2) or later.
    Compute performance of MPL by varying number of samples n_s and time sampling 
    step \delta_t
    
-### Step2:
+### Steps:
 
 1. Run AnalysisMPL_Epi_5sites_HeatMap_reg2_v2.m: This code estimates selection
      coefficients and epistasis terms by varying n_s and \delta_t
