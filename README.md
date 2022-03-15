@@ -45,6 +45,7 @@ Steps:
 1.2 -Run PlotMPL_Epi_FF1_8cases.m: This code plots Figure 1
 
 #----------------------------------------------------------------------------------
+
 2. Results shown in Figure 2
    Show 2 instances of the data analyzed in Step 1.1. 
    
@@ -53,6 +54,7 @@ Steps:
      two cases analyzed in Step1.1
 
 #----------------------------------------------------------------------------------
+
 3. Results shown in Figure 3
    Effect of data variability on estimation performance of MPL
    
@@ -64,6 +66,7 @@ Steps:
 3.2 -Run PlotMPL_Epi_FF3_BoxPlotEstnSums_2.m: This code plots Figure 3
 
 #----------------------------------------------------------------------------------
+
 4. Results shown in Figure 4
    Performance of MPL as a function fo data variability controlled by varying the 
    number of genotypes in initial population
@@ -81,6 +84,7 @@ Steps:
 4.3 -Run PlotMPL_Epi_FF4_NumStrains_4.m: This code plots Figure 4
      
 #----------------------------------------------------------------------------------
+
 5. Results shown in Figure 5
    Performance of MPL as a function fo data variability controlled by varying the 
    number of replicates used for inference
@@ -106,6 +110,7 @@ Steps:
 5.3 -Run PlotMPL_Epi_FF5_NumRep_4.m: This code plots Figure 5	 
 	
 #----------------------------------------------------------------------------------
+
 6. Results shown in Figure 6
    Compute performance of MPL by varying number of samples n_s and time sampling 
    step \delta_t
@@ -117,6 +122,7 @@ Step2:
      previous step and prepares it for plotting.
 6.3 - Run PlotMPL_Epi_FF6_MPLE_heatmap.m: This code plots Figure 6	 
 #----------------------------------------------------------------------------------
+
 7. Results shown in Figure 7
    Comparision of MPL and MPL (no epistasis) over fitness landscape with varying 
    fraction of non-zero epistasis terms.
@@ -130,6 +136,7 @@ Steps:
 7.3 -Run PlotMPL_Epi_FF7_modelComp_2.m: This code plots Figure 7
 
 #----------------------------------------------------------------------------------
+
 8. Results shown in Supplementary Figure 1
    Effect of data variability on estimation performance of MPL
    
@@ -137,6 +144,7 @@ Steps:
 8.1 -Run PlotMPL_Epi_FFS_boxplots_supp.m: This code plots Supplementary Figure 1
 
 #----------------------------------------------------------------------------------
+
 9. Results shown in Supplementary Figure 2
    Fraction of acessible, partiallly accessible and non accessible 
    selection coefficients and epistrasis terms as a function of varying data 
@@ -145,12 +153,14 @@ Steps:
 9.1 -Run PlotMPL_Epi_FFS2_fracAccess.m: This code plots Supplementary Figure 2
 
 #----------------------------------------------------------------------------------
+
 10. Results shown in Supplementary Figure 3
     Performance of MPL on sparse fitness landscapses analyzed in Figure 7
 Steps:
 10.1 -Run PlotMPL_Epi_FFS3_Landscapes_new.m: This code plots Supplementary Figure 3
 
 #----------------------------------------------------------------------------------
+
 11. Results shown in Supplementary Figure 5
     Peroformance comparison of MPL and MPL (no epistasis) on low variability data 
 	Analyzed in Figure 4
