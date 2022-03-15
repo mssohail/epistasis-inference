@@ -1,0 +1,12 @@
+% This file specifies directory paths to Data, Analysis, ABC, ApproxWF
+% the syntax is /dir1/dir2/dir3/ 
+% for windows based system, the code will automatically reformat the path
+% 
+% Note: dirNameABC for Linux based system /.../WFABC_v1.1/binaries/Linux/
+% Note: dirNameABC for Windows based system C:\...\WFABC_v1.1\binaries\Windows\
+% -------------------------------------------------------------------------
+dirNameData=D:\New\MPL Epi\Data\
+dirAnalysisName=D:\New\MPL Epi\Analysis\
+dirFiguresName=D:\New\MPL Epi\Figures\
+dirNameABC=
+dirNameApproxWF=
