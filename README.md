@@ -39,21 +39,19 @@ requires Statistics and Machine Learning Toolbox (v11.2) or later.
    (d) no epistasis
 
 ### Steps: 
-1. Run AnalysisMPL_Epi_2sites_v2_allSets_8cases.m: This code estimates the selection 
-     coefficients and epistasis terms for the two-locus system analyzed in Figure 1 
-     of the paper.
-    In Line 30, set analyzeDataForFigure = 1
+1. Run AnalysisMPL_Epi_2sites_v2_allSets_8cases.m: This code estimates the selection coefficients and epistasis terms for the two-locus system analyzed in Figure 1 of the paper. In Line 30, set analyzeDataForFigure = 1
     
 2. Run PlotMPL_Epi_FF1_8cases.m: This code plots Figure 1
 
 #----------------------------------------------------------------------------------
 
-2. Results shown in Figure 2
+## 2. Results shown in Figure 2
+
    Show 2 instances of the data analyzed in Step 1.1. 
    
-Steps:
-2.1 -Run PlotMPL_Epi_FF2_TrajExample_new.m: This code plots 1 iteration each of 
-     two cases analyzed in Step1.1
+### Steps:
+
+1 Run PlotMPL_Epi_FF2_TrajExample_new.m: This code plots 1 iteration each of two cases analyzed in Step1.1
 
 #----------------------------------------------------------------------------------
 
