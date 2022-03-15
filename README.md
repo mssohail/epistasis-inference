@@ -2,7 +2,7 @@
 
 
 
-# This repository contains codes and data accompanying the paper ""
+This repository contains codes and data accompanying the paper ""
 
 
 
@@ -16,7 +16,7 @@ MATLAB 2017b or later (may work on earlier versions but not tested). Also
 requires Statistics and Machine Learning Toolbox (v11.2) or later.
 
 
-#===============================================================================
+
 # Downloading codes
 
 1. Download the MPL codes from github
@@ -27,7 +27,7 @@ requires Statistics and Machine Learning Toolbox (v11.2) or later.
    of the Data and Analysis folders.
 
 
-#===============================================================================
+
 # Steps to obtain results of the paper
 
 1. Results shown in Figure 1 
