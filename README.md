@@ -43,45 +43,44 @@ requires Statistics and Machine Learning Toolbox (v11.2) or later.
     
 2. Run PlotMPL_Epi_FF1_8cases.m: This code plots Figure 1
 
-#----------------------------------------------------------------------------------
-
 ## 2. Results shown in Figure 2
 
    Show 2 instances of the data analyzed in Step 1.1. 
    
 ### Steps:
 
-1 Run PlotMPL_Epi_FF2_TrajExample_new.m: This code plots 1 iteration each of two cases analyzed in Step1.1
+1. Run PlotMPL_Epi_FF2_TrajExample_new.m: This code plots 1 iteration each of two cases analyzed in Step 1.1.
 
-#----------------------------------------------------------------------------------
+## 3. Results shown in Figure 3
 
-3. Results shown in Figure 3
    Effect of data variability on estimation performance of MPL
    
-Steps:
-3.1 -Run AnalysisMPL_Epi_2sites_v2_allSets_8cases.m: This code estimates selection 
-     coefficients and epistasis terms for a two-locus system analyzed in Figure 1 
-     of the paper.
-	--In Line 30, set analyzeDataForFigure = 3
-3.2 -Run PlotMPL_Epi_FF3_BoxPlotEstnSums_2.m: This code plots Figure 3
+### Steps:
 
-#----------------------------------------------------------------------------------
+1. Run AnalysisMPL_Epi_2sites_v2_allSets_8cases.m: This code estimates selection 
+   coefficients and epistasis terms for a two-locus system analyzed in Figure 1 
+   of the paper. 
+   In Line 30, set analyzeDataForFigure = 3
+   
+2. Run PlotMPL_Epi_FF3_BoxPlotEstnSums_2.m: This code plots Figure 3
 
-4. Results shown in Figure 4
+## 4. Results shown in Figure 4
+
    Performance of MPL as a function fo data variability controlled by varying the 
    number of genotypes in initial population
    
-Steps:   
-4.1 -Run AnalysisMPL_Epi_5sites_WithR_reg2_v2.m: This code estimates selection
+### Steps:   
+
+1. Run AnalysisMPL_Epi_5sites_WithR_reg2_v2.m: This code estimates selection
      coefficients and epistasis terms for a five-locus system analyzed in Figure 4
 	 of the paper.
 	-In Line 28, set numStrainsInInitialPop to 5, 10 and 20 to run for each 
 	 data variability case one by one.
-4.2 -Run PlotMPL_Epi_5sites.m: This code takes the analysis of the previous step
+2. Run PlotMPL_Epi_5sites.m: This code takes the analysis of the previous step
      and prepares it for plotting.
 	-In Line 37, set numStrainsInInitialPop to 5, 10 and 20 to run for each 
 	 data variability case one by one.
-4.3 -Run PlotMPL_Epi_FF4_NumStrains_4.m: This code plots Figure 4
+3. Run PlotMPL_Epi_FF4_NumStrains_4.m: This code plots Figure 4
      
 #----------------------------------------------------------------------------------
 
