@@ -43,6 +43,7 @@ requires Statistics and Machine Learning Toolbox (v11.2) or later.
      coefficients and epistasis terms for the two-locus system analyzed in Figure 1 
      of the paper.
     In Line 30, set analyzeDataForFigure = 1
+    
 1.2 Run PlotMPL_Epi_FF1_8cases.m: This code plots Figure 1
 
 #----------------------------------------------------------------------------------
