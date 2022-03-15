@@ -14,7 +14,13 @@ requires Statistics and Machine Learning Toolbox (v11.2) or later.
 3. Unzip folders Analysis, Data and RandPermFiles within the folder containing
    MPL codes.
 4. **Edit the dirName.txt file** within the MPL codes folder and **enter complete paths 
-   of the Data and Analysis folders.**
+   of the Data, the Analysis, and the Figure folders.**
+   
+   example:
+   - dirNameData=D:\epistasis-inference\Data\
+   - dirAnalysisName=D:\epistasis-inference\Analysis\
+   - dirFiguresName=D:\epistasis-inference\Figures\
+
 
 # Steps to obtain results presented in the paper
 
