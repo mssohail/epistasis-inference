@@ -23,6 +23,7 @@ requires Statistics and Machine Learning Toolbox (v11.2) or later.
 2. Download data files from ...
 3. Unzip folders Analysis, Data and RandPermFiles within the folder containing
    MPL codes.
+   
 **4. Edit the dirName.txt file within the MPL codes folder and enter complete paths 
    of the Data and Analysis folders.**
 
