@@ -2,7 +2,7 @@
 
 
 
-This repository contains codes and data accompanying the paper ""
+This repository contains codes and data accompanying the paper "Inferring epistasis from genetic time-series data" doi:
 
 
 
@@ -28,7 +28,7 @@ requires Statistics and Machine Learning Toolbox (v11.2) or later.
 
 
 
-# Steps to obtain results of the paper
+# Steps to obtain results presented in the paper
 
 1. Results shown in Figure 1 
    Estimating epistasis and selection coefficient under scenarios 
