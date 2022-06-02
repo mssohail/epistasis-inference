@@ -161,7 +161,7 @@ requires Statistics and Machine Learning Toolbox (v11.2) or later.
 
 ## 11. Results shown in Supplementary Figure 5
    
-   Peroformance comparison of MPL and MPL (no epistasis) on low variability data 
+   Performance comparison of MPL and MPL (no epistasis) on low variability data 
 	Analyzed in Figure 4
 
 ### Steps:
