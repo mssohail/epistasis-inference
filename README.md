@@ -11,7 +11,7 @@ requires Statistics and Machine Learning Toolbox (v11.2) or later.
 # Downloading and running codes
 
 1. Download the MPL codes from github
-2. Download data files from ...
+2. Download data files from [Zenodo](https://doi.org/10.5281/zenodo.6605512).
 3. Unzip folders Analysis, Data and RandPermFiles within the folder containing
    epistasis-inference codes.
 4. **Edit the dirName.txt file** within the MPL codes folder and **enter complete paths 
