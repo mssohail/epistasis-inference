@@ -10,7 +10,7 @@ requires Statistics and Machine Learning Toolbox (v11.2) or later.
 
 # Simple MATLAB live script examples
 
-Download the scripts within the folder code-example. Check the readme.md file in code-example for how to run Matlab live script.
+Download the scripts within the folder code-example. Check the readme.md file in code-example for more details.
 
 # Codes and data to reproduce results in the paper
 
