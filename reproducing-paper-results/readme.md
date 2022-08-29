@@ -116,7 +116,7 @@ requires Statistics and Machine Learning Toolbox (v11.2) or later.
      coefficients and epistasis terms by varying n_s and \delta_t
 2. Run PlotMPL_Epi_5sites_Heatmap_ng_dT.m: This code takes the analysis of the
      previous step and prepares it for plotting.
-3. Run PlotMPL_Epi_FF6_MPLE_heatmap.m: This code plots Figure 6	 
+3. Run PlotMPL_Epi_FF6_MPLE_heatmap_withTused.m: This code plots Figure 6	 
 
 ## 7. Results shown in Figure 7
 
@@ -130,7 +130,7 @@ requires Statistics and Machine Learning Toolbox (v11.2) or later.
 	 epistasis terms.
 2. Run PlotMPL_Epi_5sites_loop.m: This code takes the analysis of the
      previous step and prepares it for plotting.
-3. Run PlotMPL_Epi_FF7_modelComp_2.m: This code plots Figure 7
+3. RunPlotMPL_Epi_FF7_modelComp_5site_lowDiv_rep.m: This code plots Figure 7
 
 ## 8. Results shown in Supplementary Figure 1
    
