@@ -1,5 +1,5 @@
 
-This repository contains codes and data accompanying the paper "Inferring epistasis from genetic time-series data" doi:
+This repository contains codes and data required to reproduce results in "Inferring epistasis from genetic time-series data" doi:
 
 # System and software requirements
 
