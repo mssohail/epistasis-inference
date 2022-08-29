@@ -1,0 +1,8 @@
+% This file specifies directory paths to Data, Analysis
+% the syntax is /dir1/dir2/dir3/ 
+% for windows based system, the code will automatically reformat the path
+%
+% -------------------------------------------------------------------------
+dirNameData=D:/epistasis-inference-example/Example_Data_1/
+dirNameAnalysis=D:/epistasis-inference-example/Example_Analysis_1/
+dirNameResults=D:/epistasis-inference-example/Example_Results_1/
