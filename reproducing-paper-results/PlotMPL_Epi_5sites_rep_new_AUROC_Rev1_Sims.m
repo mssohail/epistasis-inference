@@ -25,7 +25,7 @@ set(0,'DefaultTextFontSize',8)
 exportData2Excel = 0;
 saveFigs = 0;
 %Lin = 10;
-thisSet = 1068242%[1068141 1068144 1068241 1068244 1068143 1068142 1068243 1068242]
+thisSet = [1068141 1068144 1068241 1068244 1068143 1068142 1068243 1068242]
 fileNameContainingDirPath = 'dirNames.txt';
 postFiltering = 1; % 0 : pre filtering (out put of AnalysisMPL_filt)
                    % 1 : post filtering
