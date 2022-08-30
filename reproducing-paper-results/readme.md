@@ -132,16 +132,8 @@ requires Statistics and Machine Learning Toolbox (v11.2) or later.
                         'numStrainsInInitialPop' to numStrainsInInitialPop = 5;
 3. Run PlotMPL_Epi_5sites_AUROC_Rev1_Sims.m
 4. Run PlotMPL_Epi_5sites_rep_new_AUROC_Rev1_Sims_loop.m
-
-
-PlotMPL_Epi_FF7_modelComp_5site_lowDiv_rep.m
-
-1. Run AnalysisMPL_Epi_5sites_reg2_v2_loop.m: This code estimates selection
-     coefficients and epistasis terms for cases with varying fraction of non-zero 
-	 epistasis terms.
-2. Run PlotMPL_Epi_5sites_loop.m: This code takes the analysis of the
-     previous step and prepares it for plotting.
-3. RunPlotMPL_Epi_FF7_modelComp_5site_lowDiv_rep.m: This code plots Figure 7
+5. Run AnalysisMPL_Epi_5sites_rep_loop.m with thisSetAll = []
+6. Run PlotMPL_Epi_FF7_modelComp_5site_lowDiv_rep.m:  This code plots Figure 7
 
 ## 8. Results shown in Supplementary Figure 1
    
