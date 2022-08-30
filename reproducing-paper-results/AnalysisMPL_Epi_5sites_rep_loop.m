@@ -21,7 +21,7 @@ close all
 
 saveFile = 1;
 %[1068141 1068144 1068241 1068244 1068143 1068142 1068243 1068242]
-numStrainsInInitialPop = 20%5;  % 5, 10, 30
+numStrainsInInitialPop = 5;  % 5, 10, 30
 thisSetAll = [1066801:10:1066891]%[1066201:10:1066291 1066401:10:1066491]%1065401%
 for setInd = 1:length(thisSetAll)
 %L = 50;
