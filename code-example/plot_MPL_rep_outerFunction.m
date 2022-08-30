@@ -108,8 +108,9 @@ for i = 1:numRep
       'LineWidth', 0.5)
     axis([1 100 0 1])
     if(i == 3)
-        ylabel('Frequency')
+        ylabel('All single mutant allele frequencies')
     end
+    title(['Dataset ' num2str(i)])
     
     if(i == 5)
         set(gca, ...
