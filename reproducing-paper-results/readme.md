@@ -116,6 +116,8 @@ requires Statistics and Machine Learning Toolbox (v11.2) or later.
      coefficients and epistasis terms by varying n_s and \delta_t
 2. Run PlotMPL_Epi_5sites_Heatmap_ng_dT.m: This code takes the analysis of the
      previous step and prepares it for plotting.
+3. Run AnalysisMPL_Epi_5sites_HeatMap_reg2_v2_Tused.m
+4. Run PlotMPL_Epi_5sites_Heatmap_Tused.m
 3. Run PlotMPL_Epi_FF6_MPLE_heatmap_withTused.m: This code plots Figure 6	 
 
 ## 7. Results shown in Figure 7
@@ -124,6 +126,9 @@ requires Statistics and Machine Learning Toolbox (v11.2) or later.
    fraction of non-zero epistasis terms.
 
 ### Steps:
+1. Run AnalysisMPL_Epi_5sites_reg2_v2_loop_Rev1_Sims.m (this code analyzes the various FL scenarios in Figure 7A.
+2. Run 
+PlotMPL_Epi_5sites_AUROC_Rev1_Sims
 
 1. Run AnalysisMPL_Epi_5sites_reg2_v2_loop.m: This code estimates selection
      coefficients and epistasis terms for cases with varying fraction of non-zero 
