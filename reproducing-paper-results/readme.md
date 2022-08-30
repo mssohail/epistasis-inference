@@ -128,7 +128,8 @@ requires Statistics and Machine Learning Toolbox (v11.2) or later.
 ### Steps:
 1. Run AnalysisMPL_Epi_5sites_reg2_v2_loop_Rev1_Sims.m (this code analyzes the various FL scenarios in Figure 7A.
 2. Run 
-PlotMPL_Epi_5sites_AUROC_Rev1_Sims
+3. Run PlotMPL_Epi_5sites_AUROC_Rev1_Sims.m
+4. Run PlotMPL_Epi_5sites_rep_new_AUROC_Rev1_Sims_loop.m
 
 1. Run AnalysisMPL_Epi_5sites_reg2_v2_loop.m: This code estimates selection
      coefficients and epistasis terms for cases with varying fraction of non-zero 
